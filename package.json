@@ -1,0 +1,23 @@
+{
+  "name": "johnlittlebot",
+  "version": "1.0.0",
+  "description": "Telegram Bot Little John Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "sample"
+  ],
+  "author": "Leonardo Camargo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "node-logger": "^0.0.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.19.1"
+  }
+}
